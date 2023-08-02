@@ -1,4 +1,3 @@
-
 name: Build and Deploy to GitHub Pages
 
 on:
@@ -33,7 +32,10 @@ jobs:
         run: npm install
       - name: Build webpack project
         run: npm run build
-        # Add other build-related steps here if needed
+        # Replace the build command with the one you use in your project
+        # For example, if your build command is "npm run build:prod", use that instead
+      - name: Show generated files
+        run: ls dist # Add this line to see what files are generated in the 'dist' directory
 
   # Deploy job to deploy the static content to GitHub Pages
   deploy:
@@ -55,3 +57,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+
