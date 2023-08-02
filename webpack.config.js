@@ -9,7 +9,7 @@ module.exports = {
   module: {
   rules: [
     {
-      test: /\.js$/,
+      test: /\.(js|jsx)$/,
       use: {
         loader: '@sucrase/webpack-loader',
         options: {
@@ -18,6 +18,10 @@ module.exports = {
       }
     }
   ]
-}
+},
+ resolve: {
+  extensions: ['.js',
+    '.jsx'],
+  },
 };
 
