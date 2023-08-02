@@ -1,0 +1,23 @@
+{
+ "name": "react-webpack-sucrase",
+ "version": "1.0.0",
+ "description": "",
+ "author": "negesis23",
+ "license": "MIT",
+ "private": true,
+ "scripts": {
+  "build": "webpack serve --mode development --progress",
+  "dev": "webpack --mode production --progress"
+ },
+ "devDependencies": {
+  "sucrase": "latest",
+  "@sucrase/webpack-loader": "latest",
+  "webpack": "latest",
+  "webpack-cli": "latest",
+  "webpack-dev-server": "latest"
+ },
+ "dependencies": {
+  "react": "latest",
+  "react-dom": "latest"
+ }
+}
