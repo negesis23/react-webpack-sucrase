@@ -6,8 +6,8 @@
  "license": "MIT",
  "private": true,
  "scripts": {
-  "build": "webpack serve --mode development --progress",
-  "dev": "webpack --mode production --progress"
+  "dev": "webpack serve --mode development --progress",
+  "build": "webpack --mode production --progress"
  },
  "devDependencies": {
   "sucrase": "latest",
