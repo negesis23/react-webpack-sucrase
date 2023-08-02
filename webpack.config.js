@@ -6,6 +6,15 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
+  devServer: {
+   port: 9000,
+   hot: true,
+   liveReload: true,
+   historyApiFallback: true,
+   static: {
+    directory: path.resolve(__dirname, 'dist'),
+   },
+  },
   module: {
   rules: [
     {
