@@ -7,6 +7,7 @@ module.exports = {
     filename: 'bundle.js',
   },
   devServer: {
+   open: true,
    port: 9000,
    hot: true,
    liveReload: true,
