@@ -1,7 +1,7 @@
 {
  "name": "react-webpack-sucrase",
  "version": "1.0.0",
- "description": "",
+ "description": "Simple react app with webpack and sucrase.",
  "author": "negesis23",
  "license": "MIT",
  "private": true,
@@ -13,8 +13,7 @@
   "sucrase": "latest",
   "@sucrase/webpack-loader": "latest",
   "webpack": "latest",
-  "webpack-cli": "latest",
-  "webpack-dev-server": "latest"
+  "webpack-cli": "latest"
  },
  "dependencies": {
   "react": "latest",
