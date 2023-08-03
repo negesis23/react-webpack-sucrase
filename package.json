@@ -13,7 +13,9 @@
   "sucrase": "latest",
   "@sucrase/webpack-loader": "latest",
   "webpack": "latest",
-  "webpack-cli": "latest"
+  "webpack-cli": "latest",
+  "webpack-dev-server": "latest",
+  "html-webpack-plugin": "latest"
  },
  "dependencies": {
   "react": "latest",
