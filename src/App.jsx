@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 
 const App = () => {
-  const [clicked, setClicked] = useState(0);
+  const [count, setCount] = useState(0);
   return (
     <div>
-      <h1>Hello, World!</h1>
-      <Button onClick={() => setClicked(clicked + 1)}>Clicked: {clicked}</Button>
+      <h1>{count}</h1>
+      <Button onClick={() => setCount(count + 1)}>Count + 1</Button>
     </div>
   );
 };
