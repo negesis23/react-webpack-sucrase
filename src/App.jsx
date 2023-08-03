@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>
       <h1>Hello, World!</h1>
-      <Button onClick={setClicked(clicked + 1)}>Clicked: {clicked}</Button>
+      <Button onClick={() => setClicked(clicked + 1)}>Clicked: {clicked}</Button>
     </div>
   );
 };
